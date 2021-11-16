@@ -7,3 +7,6 @@
 [submodule "vendor/php-xapi/serializer"]
 	path = vendor/php-xapi/serializer
 	url = https://github.com/gwmahub/serializer.git
+[submodule "vendor/php-xapi/symfony-serializer"]
+	path = vendor/php-xapi/symfony-serializer
+	url = https://github.com/gwmahub/symfony-serializer.git
