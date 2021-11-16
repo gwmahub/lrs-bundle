@@ -1,0 +1,3 @@
+[submodule "vendor/php-xapi/exception"]
+	path = vendor/php-xapi/exception
+	url = https://github.com/gwmahub/exception.git
