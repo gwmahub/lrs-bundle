@@ -13,3 +13,6 @@
 [submodule "vendor/php-xapi/repository-api"]
 	path = vendor/php-xapi/repository-api
 	url = https://github.com/gwmahub/repository-api.git
+[submodule "vendor/php-xapi/repository-doctrine-orm"]
+	path = vendor/php-xapi/repository-doctrine-orm
+	url = https://github.com/gwmahub/repository-doctrine-orm.git
