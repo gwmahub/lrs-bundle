@@ -1,0 +1,31 @@
+sudo: false
+
+language: php
+
+cache:
+  directories:
+    - $HOME/.composer/cache/files
+
+env:
+  global:
+    - COMPOSER_OPTIONS="--prefer-stable"
+
+matrix:
+  fast_finish: true
+  include:
+    - php: 7.1
+      env: COMPOSER_OPTIONS="--prefer-lowest --prefer-stable"
+    - php: 7.2
+      env: xdebug="yes"
+    - php: 7.3
+
+before_install:
+  - if [[ "$xdebug" != "yes" ]]; then phpenv config-rm xdebug.ini; fi
+  - composer self-update
+
+install:
+  - if [ "$PACKAGES" != "" ]; then composer require --no-update $PACKAGES; fi
+  - composer update $COMPOSER_OPTIONS
+
+script:
+  - vendor/bin/phpspec run
