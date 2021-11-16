@@ -1,3 +1,6 @@
+.idea
+.gitignore
 /composer.lock
 /phpspec.yml
-/vendor
+/vendor/*
+!/vendor/php-xapi/

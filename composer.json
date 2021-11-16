@@ -16,12 +16,7 @@
         }
     ],
     "require": {
-        "php": "^7.1",
-        "php-xapi/exception": "^0.1 || ^0.2",
-        "php-xapi/model": "^1.1 || ^2.0 || ^3.0",
-        "php-xapi/repository-api": "^0.3@dev || ^0.4@dev",
-        "php-xapi/serializer": "^1.0 || ^2.0",
-        "php-xapi/symfony-serializer": "^1.0 || ^2.0",
+        "php": "^7.4",
         "symfony/config": "^3.4 || ^4.3",
         "symfony/dependency-injection": "^3.4 || ^4.3",
         "symfony/http-foundation": "^3.4 || ^4.3",
@@ -29,8 +24,6 @@
     },
     "require-dev": {
         "phpspec/phpspec": "~2.3",
-        "php-xapi/json-test-fixtures": "^1.0 || ^2.0",
-        "php-xapi/test-fixtures": "^1.0.1",
         "ramsey/uuid": "^2.9 || ^3.0"
     },
     "autoload": {
