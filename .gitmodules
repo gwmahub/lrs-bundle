@@ -16,3 +16,6 @@
 [submodule "vendor/php-xapi/repository-doctrine-orm"]
 	path = vendor/php-xapi/repository-doctrine-orm
 	url = https://github.com/gwmahub/repository-doctrine-orm.git
+[submodule "vendor/php-xapi/json-test-fixtures"]
+	path = vendor/php-xapi/json-test-fixtures
+	url = https://github.com/gwmahub/json-test-fixtures.git
