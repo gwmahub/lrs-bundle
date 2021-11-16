@@ -19,3 +19,6 @@
 [submodule "vendor/php-xapi/json-test-fixtures"]
 	path = vendor/php-xapi/json-test-fixtures
 	url = https://github.com/gwmahub/json-test-fixtures.git
+[submodule "vendor/php-xapi/test-fixtures"]
+	path = vendor/php-xapi/test-fixtures
+	url = https://github.com/gwmahub/test-fixtures.git
